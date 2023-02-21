@@ -11,6 +11,8 @@ if(response.ok):
     
     ul = swoup.find("ul", {"class" : "results"})
     lis = ul.findAll("li")
-    print(len(lis))
+    for li in lis:
+        a = li.find("a")
+        print(baseUrl + a["href"])
 
 print(response.ok)
