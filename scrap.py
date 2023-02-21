@@ -7,8 +7,10 @@ uri = "/megamoteur/recherche?query=developpement&type=E%20F%20O"
 response = rq.get(baseUrl + uri)
 
 if(response.ok):
-    print(response.text)
-    #swoup = BeautifulSoup()
-
+    swoup = BeautifulSoup(response.text, 'html.parser')
+    
+    ul = swoup.find("ul", {"class" : "results"})
+    lis = ul.findAll("li")
+    print(len(lis))
 
 print(response.ok)
