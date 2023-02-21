@@ -11,8 +11,8 @@ for i in range(1, 10):
 m = 0
 v = 0
 
-for line in t:
-    for el in line:
+for lo in t:
+    for el in lo:
         if(el == 0):
             print(".", end = "")
             m = m + 1
@@ -22,9 +22,7 @@ for line in t:
         print("", end ="\t")
     print()
 
-
-
-print (v)
+print(v)
 print(m)
 
 
