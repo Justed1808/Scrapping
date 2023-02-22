@@ -25,41 +25,27 @@ def getInfosByPage(swoup):
 def swoup(url, process):
     response = rq.get(url)
     if response.ok:
-        print("yes")
+        #print("yes")
         soup = BeautifulSoup(response.text, 'html.parser')
         return process(soup)
     return []
-
-def fileReader(file):
-    result = []
-    with open(file, 'r', encoding="UTF8", newline="") as f:
-        reader = csv.DictReader(f)
-        for line in reader:
-            result.append(line)
-    return result
-
 
 def fileWriter(file, fieldnames, data):
     result = []
     with open(file, 'w', encoding="UTF8", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
-        writer.writerows(data)
-    return fileReader(file)
+        for d in data:
+            writer.writerow(d)
 
-data = fileReader("links.csv")
 
-fields = ['test']
-fileWriter('infos.csv', fields, data)
-exit()
 
 endpoints = swoup(baseUrl + uri, getEndPoints)
 
-
-print(endpoints)
 result = []
 for endpoint in endpoints:
-    result.extend(swoup(endpoint, getInfosByPage))
+    result.append({"link" : endpoint})
 
-print(result)
 
+fields = ['link']
+fileWriter('infos.csv', fields, result)
