@@ -29,14 +29,20 @@ def tryToCleanOrReturnBlank(str):
 def getInfosByPage(soup):
     fiches = []
     name = tryToCleanOrReturnBlank(soup.find("h1", {"class" : "title-page"}))
-    left = tryToCleanOrReturnBlank(soup.find("div", {"class" : "more-content"}))
+    left = soup.find("div", {"class" : "more-content"})
+    infos = left.findAll("p")
+    links = []
+    for p in infos:
+        infosTries = tryToCleanOrReturnBlank(p)
+        infosTries = infosTries.split("'")
+        links.append(infosTries)
 
     #tab = soup.find("div", {"class" : "entry-content"})
     #pres = tryToCleanOrReturnBlank(soup.findAll("p"))
 
     fiches.append ({
         "Nom" : name,
-        "coordonnes" : left
+        "coordonnes" : links
         #"Presentation" : pres
     })
     return fiches
@@ -60,7 +66,7 @@ def fileReader(file):
 def fileWriter(file, fieldnames, data):
     result = []
     with open(file, 'w', encoding="UTF8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer = csv.DictWriter(f, fieldnames=fieldnames, delimiter=";")
         writer.writeheader()
         for d in data:
             writer.writerow(d)
