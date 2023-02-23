@@ -8,7 +8,7 @@ import csv
 baseUrl = 'https://clusif.fr'
 uri = "/services/annuaire-des-prestataires/"
 
-
+'''
 clusifInstance = Clusif(baseUrl, uri)
 
 scraper = Scrapping(clusifInstance, "links.csv", "infos.csv")
@@ -44,9 +44,17 @@ def getInfosByPage(soup):
     left = soup.find("div", {"class" : "more-content"})
     infos = left.findAll("p")
     links = []
+    city = ""
     for i in infos:
         infosTries = tryToCleanOrReturnBlank(i)
-        links.append(infosTries)
+        for i in range(len(infosTries.split("'"))):
+            if "Ville" in infosTries.split("'")[i]:
+                city = infosTries.split("'")[i]
+                links.append(infosTries)
+            if "Adresse" in infosTries.split("'")[i]:
+                links.append(infosTries)
+
+    print(city)
 
     tab = soup.find("div", {"class" : "content"})
     right = tab.findAll("p")
@@ -102,5 +110,3 @@ for link in fileReader('links.csv'):
 
 fields = ["Nom", "coordonnes", "Contact"]
 fileWriter('infos.csv', fields, lignes)
-
-'''
