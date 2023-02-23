@@ -1,11 +1,23 @@
 import requests as rq
 from bs4 import BeautifulSoup
+from Scrapping import Scrapping
+from Clusif import Clusif
 
 import csv
 
 baseUrl = 'https://clusif.fr'
 uri = "/services/annuaire-des-prestataires/"
 
+
+clusifInstance = Clusif(baseUrl, uri)
+
+scraper = Scrapping(clusifInstance, "links.csv", "infos.csv")
+
+scraper.exec()
+
+print("Done")
+
+'''
 response = rq.get(baseUrl + uri)
 
 def getEndPoints(swoup):
@@ -25,25 +37,28 @@ def tryToCleanOrReturnBlank(str):
         result = ''
     return result
 
-
 def getInfosByPage(soup):
     fiches = []
     name = tryToCleanOrReturnBlank(soup.find("h1", {"class" : "title-page"}))
+
     left = soup.find("div", {"class" : "more-content"})
     infos = left.findAll("p")
     links = []
-    for p in infos:
-        infosTries = tryToCleanOrReturnBlank(p)
-        infosTries = infosTries.split("'")
+    for i in infos:
+        infosTries = tryToCleanOrReturnBlank(i)
         links.append(infosTries)
 
-    #tab = soup.find("div", {"class" : "entry-content"})
-    #pres = tryToCleanOrReturnBlank(soup.findAll("p"))
+    tab = soup.find("div", {"class" : "content"})
+    right = tab.findAll("p")
+    con = []
+    for p in right:
+        infosTries = tryToCleanOrReturnBlank(p)
+        con.append(infosTries)
 
     fiches.append ({
         "Nom" : name,
-        "coordonnes" : links
-        #"Presentation" : pres
+        "coordonnes" : links,
+        "Contact" : con
     })
     return fiches
 
@@ -85,5 +100,7 @@ lignes = []
 for link in fileReader('links.csv'):
     lignes.extend(swoup(link['lien'], getInfosByPage))
 
-fields = ["Nom", "coordonnes"]
+fields = ["Nom", "coordonnes", "Contact"]
 fileWriter('infos.csv', fields, lignes)
+
+'''
