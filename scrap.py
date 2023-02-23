@@ -11,16 +11,35 @@ response = rq.get(baseUrl + uri)
 def getEndPoints(swoup):
 
     links = []
-    div = swoup.find("div", {"class" : "col-page list"})
+    div = (swoup.find("div", {"class" : "col-page list"}))
     ahref = div.findAll("a")
     for a in ahref:
         links.append(a ["href"])
     
     return links
 
-def getInfosByPage(swoup):
-    infosTries = [swoup]
-    return infosTries
+def tryToCleanOrReturnBlank(str):
+    try:
+        result = str.getText().strip()
+    except:
+        result = ''
+    return result
+
+
+def getInfosByPage(soup):
+    fiches = []
+    name = tryToCleanOrReturnBlank(soup.find("h1", {"class" : "title-page"}))
+    left = tryToCleanOrReturnBlank(soup.find("div", {"class" : "more-content"}))
+
+    #tab = soup.find("div", {"class" : "entry-content"})
+    #pres = tryToCleanOrReturnBlank(soup.findAll("p"))
+
+    fiches.append ({
+        "Nom" : name,
+        "coordonnes" : left
+        #"Presentation" : pres
+    })
+    return fiches
 
 def swoup(url, process):
     response = rq.get(url)
@@ -30,6 +49,14 @@ def swoup(url, process):
         return process(soup)
     return []
 
+def fileReader(file):
+    result = []
+    with open(file, 'r', encoding="UTF8", newline="") as f:
+        reader = csv.DictReader(f)
+        for line in reader:
+           result.append(line) 
+    return result
+
 def fileWriter(file, fieldnames, data):
     result = []
     with open(file, 'w', encoding="UTF8", newline="") as f:
@@ -38,14 +65,19 @@ def fileWriter(file, fieldnames, data):
         for d in data:
             writer.writerow(d)
 
-
-
 endpoints = swoup(baseUrl + uri, getEndPoints)
 
-result = []
+fields = ['lien']
+rows = []
 for endpoint in endpoints:
-    result.append({"link" : endpoint})
+    row = {}
+    row['lien'] = endpoint
+    rows.append(row)
+fileWriter('links.csv', fields, rows )
 
+lignes = []
+for link in fileReader('links.csv'):
+    lignes.extend(swoup(link['lien'], getInfosByPage))
 
-fields = ['link']
-fileWriter('infos.csv', fields, result)
+fields = ["Nom", "coordonnes"]
+fileWriter('infos.csv', fields, lignes)
