@@ -1,158 +1,73 @@
-Nom;coordonnes;Contact
-2SI SYSTEMES;[];['Contact : Matthieu COLAS', 'Email : matthieu.colas@2si.fr']
-ADHEL;['Adresse : 63 Rue Nationale', 'Ville : Boulogne-Billancourt'];['Contact : ANNE DORE', 'Téléphone : 06 60 26 27 48', 'Email : anne.dore@adhel.fr']
-ADVENS;['Adresse : 16 Quai de la Mégisserie', 'Ville : Paris'];['Contact : Benjamin Leroux', 'Téléphone : 0184163025', 'Email : benjamin.leroux@advens.fr']
-AFNOR Compétences;[];[]
-AISI;['Adresse : 1 AV ALPHAND', 'Ville : SAINT-MANDE'];['Contact : Miguel De Oliveira', 'Email : Miguel.deoliveira@aisi.fr']
-ALMOND;['Adresse : 150 rue Gallieni', 'Ville : Boulogne-Billancourt'];['Contact : Olivier Pantaleo', 'Téléphone : 01 46 99 93 80', 'Email : contact@almond.consulting']
-Anomali;['Adresse : State Building - Arthur Place', 'Ville : Belfast'];['Contact : Olivier Gillet', 'Téléphone : 06 58 30 69 56', 'Email : ogillet@anomali.com']
-APIXIT;"[""Adresse : Les Conquérants, Immeuble Annapurna, 1 avenue de l'Atlantique"", 'Ville : Les Ulis']";['Contact : Ludovic LOLLIEROU', 'Téléphone : 06 34 18 47 12', 'Email : llollierou@apixit.fr']
-APL EXPERT EN DATA CENTERS;['Adresse : 50 Boulevard du Colonel Fabien', 'Ville : Ivry-sur-Seine CEDEX'];['Contact : Christophe Weiss', 'Téléphone : 01 46 71 32 32', 'Email : christophe.weiss@apl-france.fr']
-Applications Value;[];['Contact : David Pothier', 'Téléphone : 0673187558', 'Email : david.pothier@ar-p.com']
-ARP ASTRANCE;[];[]
-Arsen;['Adresse : 5 avenue du Général de Gaulle', 'Ville : Saint-Mandé'];['Contact : Thomas Le Coz', 'Email : tlc@arsen.co']
-ASSYSTEM ENGINEERING & OPERATION SERVICES;[];[]
-AUCAE;['Adresse : 12 rue louis courtois de vicose portes sud Bât 3', 'Ville : TOULOUSE'];['Contact : Jean Marc SEPIO', 'Téléphone : 0582951336', 'Email : jmsepio@aucae.com']
-Avisa Partners;[];['Contact : Vincent Riou', 'Téléphone : 0145553998', 'Email : vincent.riou@avisa-partners.com']
-AXIANS;[];[]
-AXL & TRAX NV;['Adresse : Bieststraat 4', 'Ville : Herent'];['Contact : Frédéric LORAND', 'Téléphone : +32 16 311 000', 'Email : frederic.lorand@axl-trax.com']
-Be resilient Group;['Adresse : 6, rue Emile Landrin', 'Ville : Paris'];['Contact : Vazrik MINASSIAN', 'Téléphone : 01 40 33 76 88', 'Email : adenium@adenium.fr']
-BESSE CONSEIL;[];[]
-BETA SYSTEMS SOFTWARE FRANCE;['Adresse : Le Panoramique 5 avenue de Verdun', 'Ville : Ivry sur Seine'];['Contact : Kim MENDY', 'Téléphone : 01 43 90 17 41', 'Email : kim.mendy@betasystems.com']
-BITGLASS;[];[]
-BRIGHTWAY;['Adresse : 16 rue Troyon', 'Ville : Sèvres'];['Contact : Sami CHAMAM', 'Téléphone : 01.45.34.35.38', 'Email : sami.chamam@brightway.fr']
-BSI Group France;['Adresse : 76 Route de la Demi-Lune', 'Ville : Paris La Défense'];['Contact : Ina Enikova', 'Téléphone : 01 80 46 17 91', 'Email : training.france@bsigroup.com']
-BSSI CONSEIL ET AUDIT;"[""Adresse : 4 bis rue de l'ermitage"", 'Ville : Versailles']";['Contact : Brouder', 'Téléphone : 0663142918', 'Email : erwan.brouder@bssi.fr']
-C2S BOUYGUES;[];[]
-CABESTAN CONSULTANTS;['Adresse : 6 rue des Oliviers', 'Ville : Longjumeau'];['Contact : Jean Marc GREMY', 'Téléphone : 06.60.64.59.45', 'Email : jmgremy@cabestan-consultants.com']
-CAPGEMINI INVENT;[];[]
-CEGID;[];[]
-Cendium cyberdefense;"[""Adresse : 6 rue d'Armaillé"", 'Ville : Paris']";['Contact : Eric Schmitlin', 'Téléphone : 0756873209', 'Email : contact@cendium.net']
-CGI  FRANCE SAS;['Adresse : Immeuble CB16  17 place des Reflets', 'Ville : Courbevoie'];['Contact : OLIVE', 'Téléphone : 0674332942', 'Email : jean.olive@cgi.com']
-CGWORLD;[];[]
-CHUBB EUROPEAN GROUP LTD;"[""Adresse : Immeuble le Colisée 8 avenue de l'Arche"", 'Ville : COURBEVOIE CEDEX']";['Contact : Xavier LEPROUX', 'Email : xavier.leproux@chubb.com']
-CISCO;['Adresse : 11 rue Camille Desmoulins 92130 Issy Les Moulineaux'];['Téléphone : +33 (0)1 58 04 58 58', 'Email : clusif@cisco.com']
-COESSI;['Adresse : 5, rue du Chant des Oiseaux', 'Ville : MONTESSON'];['Contact : Hervé DAUSSIN', 'Téléphone : 0147840231', 'Email : herve.daussin@coessi.fr']
-COLAS  DIGITAL SOLUTIONS;[];[]
-COMPAGNIE IBM FRANCE;[];[]
-CONEXDATA;[];[]
-CONIX;['Adresse : 2 rue Maurice Hartmann', 'Ville : Issy-les-Moulineaux'];['Contact : Vincent GAUVIN', 'Téléphone : 01 41 46 08 00', 'Email : contact_securite@conix.fr']
-CYBER COVER;['Adresse : 4 Rue Caroline', 'Ville : PARIS'];['Contact : MARC-HENRI BOYDRON', 'Téléphone : 01 88 24 71 89', 'Email : mhboydron@cyber-cover.fr']
-CYBERRES MICRO FOCUS;['Adresse : Tour Carpe Diem 31 place des Corolles', 'Ville : Paris la Défense Cedex'];['Contact : Christophe GAULTIER', 'Téléphone : +33 6 29 17 83 67', 'Email : christophe.gaultier@microfocus.com']
-CYBERWATCH;['Adresse : 10 rue Penthièvre', 'Ville : PARIS'];['Contact : Maxime ALAY-EDDINE', 'Téléphone : 06 25 23 64 81', 'Email : maxime@cyberwatch.fr']
-DARKTRACE;[];[]
-DARVA;[];[]
-DATAXIUM;['Adresse : 60 avenue Charles De Gaulle', 'Ville : Neuilly Sur Seine'];['Contact : Tugdual BRIAND', 'Téléphone : 0786114554', 'Email : tugdual.briand@dataxium.com']
-DCS EASYWARE;[];[]
-DELOITTE CONSEIL;['Adresse : 185, Avenue Charles de Gaulle', 'Ville : Neuilly-Sur-Seine'];['Contact : Fran Renault', 'Téléphone : 01 40 88 28 00', 'Email : frenault@deloitte.fr']
-DEVOTEAM;['Adresse : 73, Rue Anatole France', 'Ville : Levallois Perret'];['Contact : Florent Hamlin', 'Téléphone : 06.62.94.60.56', 'Email : florent.hamlin@devoteam.com']
-DIGITEMIS;[];[]
-E*MESSAGE;['Adresse : 22 Quai Gallieni', 'Ville : Suresnes'];[]
-ECONOCOM DIGITAL SECURITY;[];[]
-EDF – DPNT – DPN;[];[]
-EduGroupe;['Adresse : 152 avenue de Malakoff', 'Ville : Paris'];['Contact : Audrey Magro', 'Téléphone : 0171197133', 'Email : audrey.magro@edugroupe.com']
-EFFECTIVE YELLOW;['Adresse : 0 place de la Joliette - Les Docks - BP 13543', 'Ville : MARSEILLE'];['Contact : Frederic VILANOVA', 'Téléphone : 0698864970', 'Email : frederic.vilanova@effectiveyellow.com']
-EGIS;[];[]
-Eiffage énergie Systèmes;['Adresse : 18 rue Thann - BP 52499', 'Ville : MULHOUSE CEDEX 2'];['Contact : Jocelyn ZINDY', 'Téléphone : 0389323708', 'Email : jocelyn.zindy@eiffage.com']
-ESET;[];['Contact : Benoit GRUNEMWALD', 'Téléphone : 01 55 89 08 85', 'Email : benoit.g@eset-nod32.fr']
-ESN APSIDE;['Adresse : 58 avenue du Général Leclerc', 'Ville : Boulogne'];['Contact : Sandra Bursachi', 'Téléphone : 06 11 14 61 97', 'Email : bursachi@apside.fr']
-EURO INFORMATION;[];[]
-EXAKIS NELITE;[];['Téléphone : 0153948282']
-EXALOG;[];[]
-EXPLEO;[];[]
-FFIT;[];[]
-FIDENS;['Adresse : 24 rue de Châteaudun', 'Ville : PARIS'];['Contact : Bénédicte MARCEAU', 'Téléphone : +33 (1) 42 66 23 60', 'Email : benedicte.marceau@fidens.fr']
-FINANCE ACTIVE;[];[]
-FireEye;['Adresse : FireEye France Nextdoor Coeur Défense 110 esplanade du Général De Gaulle', 'Ville : Paris La Défense'];"['Contact : David Grout', 'Téléphone : 0609881989', 'Email : david;grout@fireeye.com']"
-FJ2NET;['Adresse : 26 RUE JEAN CORRINGER', 'Ville : VIGNEUX SUR SEINE'];['Contact : Frédéric JELMONI', 'Téléphone : 0612188558', 'Email : frederic@jelmoni.fr']
-FLOW LINE TECHNOLOGIES;['Adresse : Les Allées du Parc - 655 Allée des Parcs', 'Ville : SAINT PRIEST'];['Contact : Fabrice TINLOT', 'Téléphone : 04 37 54 22 50', 'Email : contact@fltechno.scc.com']
-FORMIND;[];[]
-FORTINET;['Adresse : Tour Atlantique 1 place de la Pyramide', 'Ville : Paris la Défense Cedex'];['Contact : Christophe Auberger', 'Téléphone : 0615963620', 'Email : cauberger@fortinet.com']
-GARANCE MATHIAS;[];[]
-GITGUARDIAN;['Adresse : 17 rue de la Banque', 'Ville : Paris'];['Contact : Carole Winqwist', 'Téléphone : 0662001951', 'Email : carole.winqwist@gitguardian.com']
-GLIMPS;['Adresse : 1137A Avenue des Champs Blancs', 'Ville : Cesson-Sévigné'];['Contact : Cyrille Vignon', 'Téléphone : 07 86 10 46 06', 'Email : cyrille.vignon@glimps.re']
-GRANT THORNTON CONSEIL;['Adresse : 29 rue du Pont', 'Ville : Neuilly sur Seine'];['Contact : Abdel Farid ALE', 'Téléphone : 0627710364', 'Email : abdelfarid.ale@fr.gt.com']
-GROUPE ASTEK;[];[]
-GROUPE INFOCLIP;[];[]
-HOLISEUM;['Adresse : 5 place de la Pyramide (Tour Ariane)', 'Ville : Puteaux'];['Contact : Faïz  DJELLOULI', 'Email : contact@holiseum.com']
-HS2 – HERVE SCHAUER SECURITE;[];['Contact : Hervé SCHAUER', 'Téléphone : 0644014072', 'Email : formations@hs2.fr']
-HUAWEI TECHNOLOGIES FRANCE;[];[]
-IDECSI;['Adresse : 6 rue de Berri', 'Ville : PARIS'];['Contact : Benjamin Laroche', 'Email : benjamin.laroche@idecsi.com']
-IDNA;['Adresse : 38 rue des Mathurins', 'Ville : PARIS'];['Contact : Hélène SAUVANT', 'Téléphone : 0608826133', 'Email : helene.sauvant@idna.fr']
-ILEX;['Adresse : 51 Boulevard Voltaire', 'Ville : Asnières-sur-Seine'];['Contact : Olivier MOREL', 'Téléphone : 33 1 46 88 03 40', 'Email : olivier.morel@ilex-international.com']
-INFOTEL CONSEIL;[];[]
-INOTYKO;"[""Adresse : Tour de l'horloge, 4 place Louis Armand"", 'Ville : Paris']";['Contact : Alban Caouren', 'Téléphone : 0687935354', 'Email : acaouren@inotyko.com']
-INTEGRALE IP;['Adresse : 159, rue du Docteur Bauer  - Energy Park 5', 'Ville : SAINT-OUEN'];['Contact : MARTINET Laurent', 'Téléphone : 0183644799', 'Email : laurent.martinet@integraleip.fr']
-INTUITEM;['Adresse : 2 rue Georges Millandy', 'Ville : Meudon'];['Contact : Eric Laubacher', 'Téléphone : +33 6 16 67 43 69', 'Email : eric@intuitem.com']
-IT LINK;[];[]
-Janka Technologies;"[""Adresse : 87 rue d'Amsterdam"", 'Ville : Paris']";['Contact : Carole  Brun', 'Téléphone : 0624915138', 'Email : carole.brun@janka.io']
-JOUVE SA;[];[]
-KATANA DIGITAL;['Adresse : 231 rue saint honoré', 'Ville : PARIS'];['Contact : Julia BASIN', 'Téléphone : 06 50 94 86 96', 'Email : jba@katanadigital.fr']
-KYRON SOLUTIONS INFORMATIQUES;['Adresse : 150 rue Nicolas Louis Vauquelin', 'Ville : Toulouse'];['Contact : Olivier LEVY', 'Téléphone : 0634600480', 'Email : olivier.levy@kyron.fr']
-LEXAURA;[];[]
-LISIS CONSEIL;['Adresse : 8 bis avenue Lily', 'Ville : La Celle Saint Cloud'];['Contact : Helene Courtecuisse', 'Téléphone : 06 72 15 10 68', 'Email : helene.courtecuisse@lisis-conseil.com']
-LOGPOINT FRANCE;['Adresse : 104 Avenue Albert 1er', 'Ville : RUEIL MALMAISON'];['Contact : Jerome Vosgien', 'Téléphone : +33 6 75 31 82 81', 'Email : jvo@logpoint.com']
-LOIC CAROLI SAS;['Adresse : 13 RUE DES ALPES', 'Ville : VAISON LA ROMAINE'];['Contact : Loic CAROLI', 'Téléphone : 06 19 47 68 82', 'Email : contact@loiccaroli.fr']
-Magellan;['Adresse : 149 Boulevard de Stalingrad', 'Ville : Villeurbanne'];['Contact : Alexis CARVALHO PINTO', 'Téléphone : 0437511111', 'Email : contact@magellanset.com']
-MANHATTAN SA;['Adresse : 95 rue du dauphiné', 'Ville : Saint Priest'];['Contact : Collot Philippe', 'Téléphone : 06 86 42 07 50', 'Email : pcollot@manhattan-sa.net']
-MANIKA;['Adresse : 8 rue de l’Hôtel de Ville', 'Adresse : 8 rue de l’Hôtel de Ville', 'Ville : NEUILLY-SUR-SEINE'];['Contact : Lionel MOURER', 'Téléphone : 0147498193', 'Email : lionel.mourer@manika-consulting.com']
-MAROC TELECOM;['Adresse : Avenue Ennakhil - Hay Riad', 'Ville : RABAT'];['Contact : Echaouni', 'Téléphone : +21237712121', 'Email : echaouni@iam.ma']
-MEDIANE SYSTEME;['Adresse : 54 route de Sartrouville', 'Ville : Le Pecq'];['Contact : Sébastien Buschini', 'Téléphone : 0130159515', 'Email : sebastien.buschini@medianesysteme.com']
-MICROSOFT FRANCE;['Adresse : 18, av. Québec', 'Ville : COURTABOEUF Cedex 1'];['Téléphone : 08 25 82 78 29']
-MITSUBISHI ELECTRIC;['Adresse : 1 allée de Beaulieu CS10806 CEDEX 7', 'Ville : RENNES'];['Contact : Sophie PAUTONNIER', 'Téléphone : 0223455858', 'Email : s.pautonnier@fr.merce.mee.com']
-MRC2;['Adresse : 19 rue de Belfort', 'Ville : Asnières sur Seine'];['Contact : Marie-Odile CRINON', 'Téléphone : 0688219928', 'Email : marie-odile.crinon@mrc2.fr']
-NAMESHIELD;['Adresse : Adresse 39 bld des Capucines', 'Ville : Paris'];['Contact : Arnaud JOLIVET', 'Téléphone : 06 64 83 72 28', 'Email : arnaud.jolivet@nameshield.net']
-NEO CONSULTING FOR YOU;[];[]
-NetExplorer;['Adresse : 24 boulevard des Frères Voisin', 'Ville : Issy-Les-Moulineaux'];[]
-NETMETRIX;['Adresse : Le Surena, Face au 5 quai Marcel Dassault', 'Ville : Suresnes'];['Contact : Olivier Vaugrenard', 'Téléphone : 06 33 52 14 00', 'Email : o.vaugrenardetmetrix.fr']
-NETSKOPE;[];[]
-NEURONES IT;[];[]
-NSIT SYSTEMS;[];[]
-NTT France;[];[]
-NXO FRANCE;['Adresse : 133 Boulevard National', 'Ville : Rueil-Malmaison'];['Contact : Denis LARROQUE', 'Téléphone : 0562474462', 'Email : denis.larroque@nxo.eu']
-ON-X SÉCURITÉ NUMÉRIQUE;['Adresse : 15 quai de Dion Bouton', 'Ville : PUTEAUX'];['Contact : Olivier REVENU', 'Téléphone : 0140991414', 'Email : contact.sec@on-x.com']
-OODRIVE;['Adresse : 26 rue du Faubourg Poissonnière', 'Ville : Paris'];['Contact : Edouard De Rémur', 'Téléphone : 0146220700', 'Email : e.deremur@oodrive.com']
-ORANGE;[];[]
-ORANGE BUSINESS SERVICES;['Adresse : 9 Rue du Chêne Germain', 'Ville : CESSON-SEVIGNE'];[]
-ORANGE CYBERDEFENSE;['Adresse : Tour Mercuriale PONANT  40 rue Jean Jaurès', 'Ville : Bagnolet'];['Contact : Rapha Gregorio', 'Téléphone : 01 55 86 88 88']
-ORASYS;['Adresse : 7, rue de la Croix Martre', 'Ville : Palaiseau'];['Contact : Luc Herbert', 'Téléphone : 0660155857', 'Email : luc.herbert@orasys.fr']
-OWN Security;['Adresse : 18-20 Place de la Madeleine', 'Ville : Paris'];['Contact : Guillaume LECERF', 'Téléphone : 06.77.07.14.36', 'Email : guillaume.lecerf@sekoia.fr']
-PECB GROUPE;['Adresse : 336-6683, rue Jean-Talon Est', 'Ville : Montréal, Québec'];[]
-PROOFPOINT;['Adresse : 255 boulevard Pereire', 'Ville : Paris'];['Contact : Aude Lecomte', 'Email : alecomte@proofpoint.com']
-RICOH FRANCE;['Adresse : 7-9 avenue Robert Schuman - Parc Tertiaire Silic', 'Ville : Rungis'];['Contact : JEAN-PIERRE BLANGER', 'Téléphone : 0156723031', 'Email : jean-pierre.blanger@ricoh.fr']
-ROCKWELL AUTOMATION;[];[]
-ROHDE & SCHWARZ CYBERSECURITY;['Adresse : 6 avenue de la Cristallerie', 'Ville : Sèvres'];"[""Contact : Gilles d'Arpa"", 'Téléphone : 0146209600', 'Email : gdarpa@denyall.com']"
-SCALIAN;[];[]
-SCASSI CONSEIL;['Adresse : 52 bd Sébastopol 75003 Paris 209, rue Jean BART - Bat AGORA 1', 'Ville : LABEGE'];['Contact : REAU Jean', 'Téléphone : 0561170854', 'Email : jean.reau@scassi.com']
-Seckiot;['Adresse : 10, rue de Penthièvre', 'Ville : Paris'];['Contact : Nicolas Gaschy', 'Téléphone : 0184607820', 'Email : nicolas.gaschy@seckiot.fr']
-SECURIVIEW;[];[]
-SentinelOne;['Adresse : 23 Rue Balzac', 'Ville : PARIS'];['Contact : Manuela Joulageix', 'Email : manuelaj@sentinelone.com']
-SETEC ITS;['Adresse : Immeuble Central Seine 42-52 quai de la Rapée - CS 71230', 'Ville : Paris Cedex 12'];['Téléphone : +33 1 82 51 57 12', 'Email : its@setec.com']
-SII;['Adresse : SII Siège Social - 87 quai Panhard et Levassor CS 31418', 'Ville : Paris Cedex 13'];['Contact : Erwan Michel', 'Téléphone : 0142848222', 'Email : erwan.michel@sii.fr']
-SIMPLOS;['Adresse : Le Trente, 30 avenue Carnot', 'Ville : MASSY'];['Contact : Jean-Christophe Touvet', 'Téléphone : 0950469944', 'Email : simplos@simplos.fr']
-SOPRA STERIA GROUP;[];[]
-SPB;[];[]
-SPIE ICS;[];[]
-SSI CONSEIL;['Adresse : 7 Rue Huntziger', 'Ville : Clichy'];['Contact : Baptiste HAMON', 'Email : baptiste.hamon@ssi-conseil.fr']
-SYNCHRONE;[];[]
-SYNETIS;['Adresse : 19 RUE DU GENERAL FOY', 'Ville : PARIS'];['Contact : MICHAEL LECLERCQ', 'Téléphone : 0663541056', 'Email : michael.leclercq@synetis.com']
-SYSDREAM;['Adresse : 14 place Marie Jeanne Bassot', 'Ville : LEVALLOIS PERRET'];['Contact : Jean-Félix CHEVASSU', 'Email : jf.chevassu@sysdream.com']
-SYSTANCIA;[];[]
-SYSUN CYBERSECURITE;['Adresse : 45 Rue du Général Leclerc', 'Ville : Le Grand Quevilly'];['Contact : Christophe  Dos Santos', 'Téléphone : 06 58 69 80 75', 'Email : c.dossantos@sysun-cybersecurite.com']
-TEHTRIS;['Adresse : 13-15 rue Taitbout', 'Ville : PARIS'];['Contact : Ingrid SOLLNER', 'Téléphone : 06 02 18 25 06', 'Email : communication@tehtris.com']
-Tenable;[];['Contact : Yamina  Perrot', 'Email : yperrot@tenable.com']
-TEREGA;[];[]
-TERRANOVA WW CORPORATION;[];['Contact : Dalila Ben Attia', 'Email : dalila.benattia@terranovasecurity.com']
-THALES BELGIUM SA;[];[]
-TheGreenBow;['Adresse : 24 rue Caumartin', 'Ville : Paris'];['Contact : Arnaud Dufournet', 'Téléphone : +33 7 49 98 10 53', 'Email : arnaud.dufournet@thegreenbow.com']
-TIXEO;[];[]
-TNP CONSULTANTS;['Adresse : 31 rue du Pont', 'Ville : Neuilly sur Seine'];['Contact : Florence BONNET', 'Téléphone : 06 68 88 75 65', 'Email : florence.bonnet@tnpconsultants.com']
-TREND MICRO FRANCE SA;[];[]
-TRUST PROVIDERS CONSULTING;[];[]
-UMANIS SA;['Adresse : 7-9 rue Paul Vaillant Couturier', 'Ville : LEVALLOIS PERRET'];['Contact : CONTACT UMANIS', 'Email : contact@umanis.com']
-UVU GROUP;['Ville : NANTERRE'];['Contact : HERVE MAFILLE', 'Téléphone : 0617980742', 'Email : herve.mafille@uvu-group.com']
-VBI MAÎTRISE DES CRISES;['Adresse : 16 RUE EMILE ROUX', 'Ville : FONTENAY SOUS BOIS'];['Contact : Vincent Balouet', 'Email : vincent.balouet@maitrisedescrises.com']
-WAVESTONE;['Adresse : Tour Franklin, 100-101 terrasse Boieldieu', 'Ville : Paris La Défense Cedex'];['Contact : Gérôme BILLOIS', 'Téléphone : 01 49 03 25 00', 'Email : gerome.billois@wavestone.com']
-YES WE HACK;['Adresse : 14 rue Charles V', 'Ville : PARIS'];['Contact : Lionel PASCAUD', 'Email : l.pascaud@yeswehack.com']
-YOGOSHA;[];[]
-ZSCALER;[];[]
+Nom;Activité;Adresse;Code Postal;Ville;Téléphone;Email;Site
+ADHEL;Audit, Conseil;63 Rue Nationale;92100;Boulogne-Billancourt;06 60 26 27 48;anne.dore@adhel.fr;adhel.fr
+ADVENS;Entreprises de Services du Numérique;16 Quai de la Mégisserie;75001;Paris;0184163025;benjamin.leroux@advens.fr;https://www.advens.fr/
+ALMOND;Audit, Conseil;150 rue Gallieni;92100;Boulogne-Billancourt;01 46 99 93 80;contact@almond.consulting;
+Anomali;Editeurs de logiciels;State Building - Arthur Place;BT1 4HG;Belfast;06 58 30 69 56;ogillet@anomali.com;www.anomali.com
+APIXIT;Entreprises de Services du Numérique;Les Conquérants, Immeuble Annapurna, 1 avenue de l;91940;Les Ulis;06 34 18 47 12;llollierou@apixit.fr;https://www.apixit.fr
+APL EXPERT EN DATA CENTERS;Audit, Conseil;50 Boulevard du Colonel Fabien;94854;Ivry-sur-Seine CEDEX;01 46 71 32 32;christophe.weiss@apl-france.fr;http://www.apl-france.com/
+AUCAE;Editeurs de logiciels;12 rue louis courtois de vicose portes sud Bât 3;31100;TOULOUSE;0582951336;jmsepio@aucae.com;aucae.com
+AXL & TRAX NV;Audit, Conseil;Bieststraat 4;3020;Herent;+32 16 311 000;frederic.lorand@axl-trax.com;http://www.axl-trax.com/
+Be resilient Group;Audit, Conseil;6, rue Emile Landrin;75020;Paris;01 40 33 76 88;adenium@adenium.fr;http://www.adenium.fr/
+BETA SYSTEMS SOFTWARE FRANCE;Editeurs de logiciels;Le Panoramique 5 avenue de Verdun;94200;Ivry sur Seine;01 43 90 17 41;kim.mendy@betasystems.com;https://www.betasystems-iam.com/fr
+BRIGHTWAY;Entreprises de Services du Numérique;16 rue Troyon;92310;Sèvres;01.45.34.35.38;sami.chamam@brightway.fr;https://www.brightway.fr
+BSI Group France;Audit, Conseil;76 Route de la Demi-Lune;92057;Paris La Défense;01 80 46 17 91;training.france@bsigroup.com;https://www.bsigroup.com/fr-FR/
+BSSI CONSEIL ET AUDIT;Audit, Conseil;4 bis rue de l;78000;Versailles;0663142918;erwan.brouder@bssi.fr;http://www.bssi.fr/
+CABESTAN CONSULTANTS;Audit, Conseil;6 rue des Oliviers;91160;Longjumeau;06.60.64.59.45;jmgremy@cabestan-consultants.com;http://www.cabestan-consultants.com
+Cendium cyberdefense;Audit, Conseil;6 rue d;75017;Paris;0756873209;contact@cendium.net;https://cendium.net
+CGI  FRANCE SAS;Services;Immeuble CB16  17 place des Reflets;92400;Courbevoie;0674332942;jean.olive@cgi.com;http://www.cgi.fr/conseil/securite
+COESSI;Audit, Conseil;5, rue du Chant des Oiseaux;78360;MONTESSON;0147840231;herve.daussin@coessi.fr;http://www.coessi.com/
+CONIX;Audit, Conseil;2 rue Maurice Hartmann;92130;Issy-les-Moulineaux;01 41 46 08 00;contact_securite@conix.fr;http://www.conix.fr/
+CYBER COVER;Assurance;4 Rue Caroline;75 017;PARIS;01 88 24 71 89;mhboydron@cyber-cover.fr;www.cyber-cover.fr
+CYBERRES MICRO FOCUS;Editeurs de logiciels;Tour Carpe Diem 31 place des Corolles;92098;Paris la Défense Cedex;+33 6 29 17 83 67;christophe.gaultier@microfocus.com;www.cyberres.com
+CYBERWATCH;Banque, finance, Editeurs de logiciels;10 rue Penthièvre;75008;PARIS;06 25 23 64 81;maxime@cyberwatch.fr;https://cyberwatch.fr
+DATAXIUM;Entreprises de Services du Numérique;60 avenue Charles De Gaulle;92200;Neuilly Sur Seine;0786114554;tugdual.briand@dataxium.com;www.dataxium.com
+DELOITTE CONSEIL;Audit, Conseil;185, Avenue Charles de Gaulle;92200;Neuilly-Sur-Seine;01 40 88 28 00;frenault@deloitte.fr;http://www.deloitte.fr
+DEVOTEAM;Audit, Conseil;73, Rue Anatole France;92300;Levallois Perret;06.62.94.60.56;florent.hamlin@devoteam.com;http://www.devoteam.fr/
+EduGroupe;Entreprises de Services du Numérique;152 avenue de Malakoff;75116;Paris;0171197133;audrey.magro@edugroupe.com;www.edugroupe.com
+EFFECTIVE YELLOW;Editeurs de logiciels;0 place de la Joliette - Les Docks - BP 13543;13567;MARSEILLE;0698864970;frederic.vilanova@effectiveyellow.com;www.effectiveyellow.com
+Eiffage énergie Systèmes;Entreprises de Services du Numérique, Industrie, Services;18 rue Thann - BP 52499;68057;MULHOUSE CEDEX 2;0389323708;jocelyn.zindy@eiffage.com;www.eiffageenergiesystemes.com
+FIDENS;Audit, Conseil;24 rue de Châteaudun;75009;PARIS;+33 (1) 42 66 23 60;benedicte.marceau@fidens.fr;http://www.fidens.fr/
+FireEye;Editeurs de logiciels;FireEye France Nextdoor Coeur Défense 110 esplanade du Général De Gaulle;92931;Paris La Défense;0609881989;"david;grout@fireeye.com";www.fireeye.fr
+FJ2NET;Entreprises de Services du Numérique;26 RUE JEAN CORRINGER;91270;VIGNEUX SUR SEINE;0612188558;frederic@jelmoni.fr;www.fj2net.fr
+FLOW LINE TECHNOLOGIES;Télécommunications;Les Allées du Parc - 655 Allée des Parcs;69800;SAINT PRIEST;04 37 54 22 50;contact@fltechno.scc.com;https://www.flowlinetechnologies.com/
+FORTINET;Services;Tour Atlantique 1 place de la Pyramide;92911;Paris la Défense Cedex;0615963620;cauberger@fortinet.com;
+GITGUARDIAN;Editeurs de logiciels;17 rue de la Banque;75002;Paris;0662001951;carole.winqwist@gitguardian.com;www.GitGuardian.com
+GLIMPS;Editeurs de logiciels;1137A Avenue des Champs Blancs;35510;Cesson-Sévigné;07 86 10 46 06;cyrille.vignon@glimps.re;www.glimps.fr
+GRANT THORNTON CONSEIL;Audit, Conseil;29 rue du Pont;92578;Neuilly sur Seine;0627710364;abdelfarid.ale@fr.gt.com;www.grantthornton.fr
+IDNA;Audit, Conseil;38 rue des Mathurins;75008;PARIS;0608826133;helene.sauvant@idna.fr;www.idna.fr
+ILEX;Editeurs de logiciels;51 Boulevard Voltaire;92600;Asnières-sur-Seine;33 1 46 88 03 40;olivier.morel@ilex-international.com;http://www.ilex-international.com/
+INOTYKO;Audit, Conseil;Tour de l;75012;Paris;0687935354;acaouren@inotyko.com;www.inotyko.com
+INTEGRALE IP;Entreprises de Services du Numérique;159, rue du Docteur Bauer  - Energy Park 5;93400;SAINT-OUEN;0183644799;laurent.martinet@integraleip.fr;https://integraleip.fr/
+INTUITEM;Audit, Conseil;2 rue Georges Millandy;92360;Meudon;+33 6 16 67 43 69;eric@intuitem.com;https://intuitem.com
+Janka Technologies;Audit, Conseil;87 rue d;75008;Paris;0624915138;carole.brun@janka.io;www.janka.io
+KATANA DIGITAL;Services;231 rue saint honoré;75001;PARIS;06 50 94 86 96;jba@katanadigital.fr;www.katanadigital.com
+KYRON SOLUTIONS INFORMATIQUES;Entreprises de Services du Numérique;150 rue Nicolas Louis Vauquelin;31100;Toulouse;0634600480;olivier.levy@kyron.fr;www.kyron.fr
+LISIS CONSEIL;Audit, Conseil;8 bis avenue Lily;78170;La Celle Saint Cloud;06 72 15 10 68;helene.courtecuisse@lisis-conseil.com;http://www.lisis-conseil.com/
+LOGPOINT FRANCE;Editeurs de logiciels;104 Avenue Albert 1er;92500;RUEIL MALMAISON;+33 6 75 31 82 81;jvo@logpoint.com;https://www.logpoint.com
+LOIC CAROLI SAS;Audit, Conseil;13 RUE DES ALPES;84110;VAISON LA ROMAINE;06 19 47 68 82;contact@loiccaroli.fr;linkedin.com/company/loiccaroli
+Magellan;Editeurs de logiciels;149 Boulevard de Stalingrad;69100;Villeurbanne;0437511111;contact@magellanset.com;https://www.magellanset.com
+MANHATTAN SA;Entreprises de Services du Numérique;95 rue du dauphiné;69800;Saint Priest;06 86 42 07 50;pcollot@manhattan-sa.net;http://www.manhattan-sa.net/
+MANIKA;Audit, Conseil;8 rue de l’Hôtel de Ville;92000;NEUILLY-SUR-SEINE;0147498193;lionel.mourer@manika-consulting.com;https://www.manika-consulting.com
+MAROC TELECOM;Télécommunications;Avenue Ennakhil - Hay Riad;10000;RABAT;+21237712121;echaouni@iam.ma;http://www.iam.ma/
+MEDIANE SYSTEME;Audit, Conseil;54 route de Sartrouville;78232;Le Pecq;0130159515;sebastien.buschini@medianesysteme.com;medianesysteme.com
+MITSUBISHI ELECTRIC;Télécommunications;1 allée de Beaulieu CS10806 CEDEX 7;35708;RENNES;0223455858;s.pautonnier@fr.merce.mee.com;https://www.mitsubishielectric-rce.eu
+MRC2;Audit, Conseil;19 rue de Belfort;92600;Asnières sur Seine;0688219928;marie-odile.crinon@mrc2.fr;www.mrc2.fr
+NETMETRIX;Audit, Conseil;Le Surena, Face au 5 quai Marcel Dassault;92150;Suresnes;06 33 52 14 00;o.vaugrenardetmetrix.fr;www.netmetrix.fr
+NXO FRANCE;Audit, Conseil;133 Boulevard National;92500;Rueil-Malmaison;0562474462;denis.larroque@nxo.eu;www.nxo.eu
+ON-X SÉCURITÉ NUMÉRIQUE;Audit, Conseil;15 quai de Dion Bouton;92800;PUTEAUX;0140991414;contact.sec@on-x.com;https://www.on-x.com/
+OODRIVE;Editeurs de logiciels;26 rue du Faubourg Poissonnière;75010;Paris;0146220700;e.deremur@oodrive.com;www.oodrive.fr
+ORASYS;Audit, Conseil, Entreprises de Services du Numérique;7, rue de la Croix Martre;91120;Palaiseau;0660155857;luc.herbert@orasys.fr;http://www.orasys.fr/
+OWN Security;Audit, Conseil;18-20 Place de la Madeleine;75008;Paris;06.77.07.14.36;guillaume.lecerf@sekoia.fr;http://www.sekoia.fr/
+RICOH FRANCE;Entreprises de Services du Numérique;7-9 avenue Robert Schuman - Parc Tertiaire Silic;94150;Rungis;0156723031;jean-pierre.blanger@ricoh.fr;
+ROHDE & SCHWARZ CYBERSECURITY;Editeurs de logiciels;6 avenue de la Cristallerie;92310;Sèvres;0146209600;gdarpa@denyall.com;http://www.denyall.com
+SCASSI CONSEIL;Audit, Conseil;52 bd Sébastopol 75003 Paris 209, rue Jean BART - Bat AGORA 1;31670;LABEGE;0561170854;jean.reau@scassi.com;http://www.scassi.com/
+Seckiot;Editeurs de logiciels;10, rue de Penthièvre;75008;Paris;0184607820;nicolas.gaschy@seckiot.fr;www.seckiot.fr
+SETEC ITS;Audit, Conseil;Immeuble Central Seine 42-52 quai de la Rapée - CS 71230;75583;Paris Cedex 12;+33 1 82 51 57 12;its@setec.com;www.setec.fr
+SII;Entreprises de Services du Numérique;SII Siège Social - 87 quai Panhard et Levassor CS 31418;75634;Paris Cedex 13;0142848222;erwan.michel@sii.fr;http://www.groupe-sii.com/fr
+SIMPLOS;Services;Le Trente, 30 avenue Carnot;91300;MASSY;0950469944;simplos@simplos.fr;https://www.simplos.fr
+SYNETIS;Audit, Conseil;19 RUE DU GENERAL FOY;75008;PARIS;0663541056;michael.leclercq@synetis.com;www.synetis.com
+SYSUN CYBERSECURITE;Editeurs de logiciels;45 Rue du Général Leclerc;76120;Le Grand Quevilly;06 58 69 80 75;c.dossantos@sysun-cybersecurite.com;https://www.sysun-cybersecurite.com
+TEHTRIS;Editeurs de logiciels;13-15 rue Taitbout;75009;PARIS;06 02 18 25 06;communication@tehtris.com;https://tehtris.com
+TheGreenBow;Editeurs de logiciels;24 rue Caumartin;75009;Paris;+33 7 49 98 10 53;arnaud.dufournet@thegreenbow.com;http://www.thegreenbow.com
+TNP CONSULTANTS;Audit, Conseil;31 rue du Pont;92200;Neuilly sur Seine;06 68 88 75 65;florence.bonnet@tnpconsultants.com;www.tnpconsultants.com
+WAVESTONE;Audit, Conseil;Tour Franklin, 100-101 terrasse Boieldieu;92042;Paris La Défense Cedex;01 49 03 25 00;gerome.billois@wavestone.com;https://www.wavestone.com

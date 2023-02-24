@@ -8,7 +8,7 @@ class Clusif:
         self.urls = []
         self.endpoints = []
         self.result = []
-        self.finalFileNameFields = ["Nom", "coordonnes", "Contact"]
+        self.finalFileNameFields = ["Nom", "Activité", "Adresse", "Code Postal", "Ville", "Téléphone", "Email", "Site"]
 
     def setEndpoints(self,soup):
         div = (soup.find("div", {"class" : "col-page list"}))
@@ -31,27 +31,60 @@ class Clusif:
     def getInfoByPage(self, soup):
 
         fiches = []
-        name = Toolkit.tryToCleanOrReturnBlank(soup.find("h1", {"class" : "title-page"}))
-
         left = soup.find("div", {"class" : "more-content"})
         infos = left.findAll("p")
-        links = []
+
+        city = ""
+        adr = ""
+        activity = ""
+        post = ""
+        name = ""
+        site = ""
         for i in infos:
             infosTries = Toolkit.tryToCleanOrReturnBlank(i)
-            links.append(infosTries)
+            for i in range(len(infosTries.split("'"))):
+                if "Activité" in infosTries.split("'")[i]:
+                    activity = infosTries.split("'")[i].replace('Activité : ', '')
+                    name = Toolkit.tryToCleanOrReturnBlank(soup.find("h1", {"class" : "title-page"}))
+
+                elif "Adresse" in infosTries.split("'")[i]:
+                    adr = infosTries.split("'")[i].replace('Adresse : ', '')
+
+                elif "Code postal" in infosTries.split("'")[i]:
+                    post = infosTries.split("'")[i].replace('Code postal : ', '')
+
+                elif "Ville" in infosTries.split("'")[i]:
+                    city = infosTries.split("'")[i].replace('Ville : ', '')
+
+                elif "Site web" in infosTries.split("'")[i]:
+                    site = infosTries.split("'")[i].replace('Site web : ', '')
+                
 
         tab = soup.find("div", {"class" : "content"})
         right = tab.findAll("p")
-        con = []
+        tel = ""
+        mail = ""
         for p in right:
             infosTries = Toolkit.tryToCleanOrReturnBlank(p)
-            con.append(infosTries)
+            for j in range(len(infosTries.split("'"))):
+                if "Téléphone" in infosTries.split("'")[j]:
+                    tel = infosTries.split("'")[j].replace('Téléphone : ', '')
 
-        fiches.append ({
-            "Nom" : name,
-            "coordonnes" : links,
-            "Contact" : con
-        })
+                if "Email" in infosTries.split("'")[j]:
+                    mail = infosTries.split("'")[j].replace('Email : ', '')
+
+
+        if(name != "" and activity != "" and adr != "" and post != "" and city != "" and tel != "" and mail != ""):
+            fiches.append ({
+                "Nom" : name,
+                "Activité" : activity,
+                "Adresse" : adr,
+                "Code Postal" : post,
+                "Ville" : city,
+                "Téléphone" : tel,
+                "Email" : mail,
+                "Site" : site
+            })
         
         self.result.extend(fiches)
         return fiches

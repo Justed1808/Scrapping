@@ -1,7 +1,7 @@
 import requests as rq
 from bs4 import BeautifulSoup
 from Scrapping import Scrapping
-from Clusif import Clusif
+from clusif import Clusif
 
 import csv
 
@@ -39,35 +39,60 @@ def tryToCleanOrReturnBlank(str):
 
 def getInfosByPage(soup):
     fiches = []
-    name = tryToCleanOrReturnBlank(soup.find("h1", {"class" : "title-page"}))
-
     left = soup.find("div", {"class" : "more-content"})
     infos = left.findAll("p")
-    links = []
+
     city = ""
+    adr = ""
+    activity = ""
+    post = ""
+    name = ""
+    site = ""
     for i in infos:
         infosTries = tryToCleanOrReturnBlank(i)
         for i in range(len(infosTries.split("'"))):
-            if "Ville" in infosTries.split("'")[i]:
-                city = infosTries.split("'")[i]
-                links.append(infosTries)
-            if "Adresse" in infosTries.split("'")[i]:
-                links.append(infosTries)
+            if "Activité" in infosTries.split("'")[i]:
+                activity = infosTries.split("'")[i].replace('Activité : ', '')
+                name = tryToCleanOrReturnBlank(soup.find("h1", {"class" : "title-page"}))
 
-    print(city)
+            elif "Adresse" in infosTries.split("'")[i]:
+                adr = infosTries.split("'")[i].replace('Adresse : ', '')
+
+            elif "Code postal" in infosTries.split("'")[i]:
+                post = infosTries.split("'")[i].replace('Code postal : ', '')
+
+            elif "Ville" in infosTries.split("'")[i]:
+                city = infosTries.split("'")[i].replace('Ville : ', '')
+
+            elif "Site web" in infosTries.split("'")[i]:
+                site = infosTries.split("'")[i].replace('Site web : ', '')
+            
 
     tab = soup.find("div", {"class" : "content"})
     right = tab.findAll("p")
-    con = []
+    tel = ""
+    mail = ""
     for p in right:
         infosTries = tryToCleanOrReturnBlank(p)
-        con.append(infosTries)
+        for j in range(len(infosTries.split("'"))):
+            if "Téléphone" in infosTries.split("'")[j]:
+                tel = infosTries.split("'")[j].replace('Téléphone : ', '')
 
-    fiches.append ({
-        "Nom" : name,
-        "coordonnes" : links,
-        "Contact" : con
-    })
+            if "Email" in infosTries.split("'")[j]:
+                mail = infosTries.split("'")[j].replace('Email : ', '')
+
+
+    if(name != "" and activity != "" and adr != "" and post != "" and city != "" and tel != "" and mail != ""):
+        fiches.append ({
+            "Nom" : name,
+            "Activité" : activity,
+            "Adresse" : adr,
+            "Code Postal" : post,
+            "Ville" : city,
+            "Téléphone" : tel,
+            "Email" : mail,
+            "Site" : site
+        })
     return fiches
 
 def swoup(url, process):
@@ -108,5 +133,5 @@ lignes = []
 for link in fileReader('links.csv'):
     lignes.extend(swoup(link['lien'], getInfosByPage))
 
-fields = ["Nom", "coordonnes", "Contact"]
+fields = ["Nom", "Activité", "Adresse", "Code Postal", "Ville", "Téléphone", "Email", "Site"]
 fileWriter('infos.csv', fields, lignes)
