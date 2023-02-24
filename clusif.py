@@ -9,7 +9,7 @@ class Clusif:
         self.endpoints = []
         self.result = []
         self.finalFileNameFields = ["Nom", "Activité", "Adresse", "Code Postal", "Ville", "Téléphone", "Email", "Site"]
-
+    
     def setEndpoints(self,soup):
         div = (soup.find("div", {"class" : "col-page list"}))
         ahref = div.findAll("a")
@@ -19,7 +19,6 @@ class Clusif:
                 links.append(a['href'])
             except:
                 pass
-        self.endpoints.extend(Toolkit.addBaseUrl(self.baseUrl, links))
         return self.endpoints
 
     def getEndpoints(self):

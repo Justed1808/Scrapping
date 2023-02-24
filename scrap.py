@@ -16,7 +16,6 @@ scraper = Scrapping(clusifInstance, "links.csv", "infos.csv")
 scraper.exec()
 
 print("Done")
-
 '''
 response = rq.get(baseUrl + uri)
 
@@ -48,8 +47,9 @@ def getInfosByPage(soup):
     post = ""
     name = ""
     site = ""
-    for i in infos:
-        infosTries = tryToCleanOrReturnBlank(i)
+    
+    for a in infos:
+        infosTries = tryToCleanOrReturnBlank(a)
         for i in range(len(infosTries.split("'"))):
             if "Activité" in infosTries.split("'")[i]:
                 activity = infosTries.split("'")[i].replace('Activité : ', '')
@@ -98,7 +98,6 @@ def getInfosByPage(soup):
 def swoup(url, process):
     response = rq.get(url)
     if response.ok:
-        #print("yes")
         soup = BeautifulSoup(response.text, 'html.parser')
         return process(soup)
     return []
@@ -135,3 +134,5 @@ for link in fileReader('links.csv'):
 
 fields = ["Nom", "Activité", "Adresse", "Code Postal", "Ville", "Téléphone", "Email", "Site"]
 fileWriter('infos.csv', fields, lignes)
+
+print("Done")
